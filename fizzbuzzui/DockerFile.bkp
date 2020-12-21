@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8081
+ADD /target/ui-0.0.1.jar ui-0.0.1.jar
+ENTRYPOINT ["java", "-jar", "fizzbuzzui-0.0.1.jar"] 
