@@ -23,3 +23,4 @@ Following are the urls used to access the application on Amazon.
 1. Accessing the User Interface - http://fizzbuzzui-env.eba-pa3midji.eu-west-2.elasticbeanstalk.com/
 2. Accessing the API - http://oneiofizzbuzz-env.eba-snyqawkc.eu-west-2.elasticbeanstalk.com/api/fizzbuzz/100/3/5
 
+Note: If the application is accessing on the windows the property application.properties file in fizzbuzzui project, fizzbuzz.api.server.url.local property should be changed to fizzbuzz.api.server.url.local=http://localhost:8080/. fizzbuzz in the url is being used to access the docker network. 
